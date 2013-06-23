@@ -37,5 +37,17 @@
 	},
 	"^Fogo(\\sde Ch[aã]o)?$": {
 		"verdict": true
+	},
+	"^Chipotle$": {
+		"verdict": false
+	},
+	"^Which\\s?wich$": {
+		"verdict": false
+	},
+	"^Qudoba$": {
+		"verdict": false
+	},
+	"^Potbelly(\\sSandwiches)?$": {
+		"verdict": false
 	}
 }
