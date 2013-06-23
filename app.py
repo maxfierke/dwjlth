@@ -31,7 +31,7 @@ def home():
 def search():
     restaurant = request.args.get('q', '', type=str)
     if restaurant == '':
-        return make_response('', 400)
+        return jsonify(status='Bad Request', statusCode='400'), 400
 
     verdict = acquire_verdict(restaurant)
     if verdict is not False:
