@@ -1,20 +1,41 @@
 {
-	"^Mc\\s?Donald'?s": {
+	"^Mc\\s?Donald'?s$": {
 		"verdict": false
 	},
-	"^Smash\\s?Burger": {
+	"^Smash\\s?Burger$": {
 		"verdict": true
 	},
-	"^Taco\\s?Bell": {
+	"^Taco\\s?Bell$": {
+		"verdict": false
+	},
+	"^Burger\\s?King$": {
+		"verdict": false
+	},
+	"^Five\\s?Guys\\s?(?:Burgers)?\\s?(?:and Fries)?(?:& Fries)?$": {
+		"verdict": false
+	},
+	"^Hardee'?s$": {
+		"verdict": false
+	},
+	"^Subway(?: Sandwiches)?$": {
+		"verdict": false
+	},
+	"^Jimmy Johns$": {
+		"verdict": false
+	},
+	"^Shish$": {
 		"verdict": true
 	},
-	"^Burger\\s?King": {
+	"^Wally'?s\\s?Falafel\\s?(?:and)?\\s?(?:&)?\\s?Hummus$": {
 		"verdict": false
 	},
-	"^Five\\s?Guys\\s?(?:Burgers)?\\s(?:and Fries)?(?:& Fries)?": {
+	"^Dairy Queen$": {
 		"verdict": false
 	},
-	"^Hardee'?s": {
+	"^(Erbert(\\s|'s )(&|and) Gerbert('s|s)|^Erb('s|s|) (&|and) Gerb('s|s|))$": {
 		"verdict": false
+	},
+	"^Fogo(\\sde Ch[aã]o)?$": {
+		"verdict": true
 	}
 }
