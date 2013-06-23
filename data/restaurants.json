@@ -1,0 +1,20 @@
+{
+	"^Mc\\s?Donald'?s": {
+		"verdict": false
+	},
+	"^Smash\\s?Burger": {
+		"verdict": true
+	},
+	"^Taco\\s?Bell": {
+		"verdict": true
+	},
+	"^Burger\\s?King": {
+		"verdict": false
+	},
+	"^Five\\s?Guys\\s?(?:Burgers)?\\s(?:and Fries)?(?:& Fries)?": {
+		"verdict": false
+	},
+	"^Hardee'?s": {
+		"verdict": false
+	}
+}

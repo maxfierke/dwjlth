@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+
+{% block js %}
+<script type="text/javascript">
+	$('#search').submit(function (e) {
+		if(e.preventDefault) e.preventDefault(); else e.returnValue = false;
+		$.ajax({
+			url: "/search",
+			dataType: "json",
+			data: {'q': $('#query').val()},
+			success: function (data, textStatus) {
+				console.log(data);
+				$('#notfound').addClass('hidden');
+				$('#result').removeClass('hidden');
+				console.log(data.restaurant)
+				if (data.restaurant.verdict) {
+					$('#verdict').removeClass('text-error');
+					$('#verdict').addClass('text-success');
+					$('#verdict').text('Yes');
+				} else {
+					$('#verdict').removeClass('text-success');
+					$('#verdict').addClass('text-error');
+					$('#verdict').text('No');
+				}
+			},
+			error: function (data, textStatus) {
+				$('#result').addClass('hidden');
+				$('#notfound').removeClass('hidden');
+			}
+		});
+		return false;
+	});
+</script>
+{% endblock %}
+
+
+{% block main %}
+<div class="container">
+	<h1 class="text-center">Do We Just Leave These Here?</h1>
+	<form id="search">
+		<input id="query" name="query" type="text" class="input-block-level text-center" placeholder="Name of Restaurant" />
+		<button id="checkBtn" type="submit" class="btn btn-primary btn-large btn-block">Check</button>
+	</form>
+
+	<div id="result" class="hidden">
+		<h3 class="lead">The verdict is <span id="verdict"></span></h3>
+		<h5>Did we make a mistake? <a href="https://github.com/maxfierke/dwjlth/issues">Tell us</a></h5>
+	</div>
+
+	<div id="notfound" class="hidden">
+		<h3 class="lead text-error">Data for that restaurant was not found!</h3>
+		<h5>Know the answer? <a href="https://github.com/maxfierke/dwjlth/issues">Tell us</a></h5>
+	</div>
+</div>
+{% endblock %}
