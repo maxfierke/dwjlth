@@ -14,7 +14,7 @@
 	"^Five\\s?Guys\\s?(?:Burgers)?\\s?(?:and Fries)?(?:& Fries)?$": {
 		"verdict": false
 	},
-	"^Hardee'?s$": {
+	"^(Hardee'?s|Carl'?s Jr\\.?)$": {
 		"verdict": false
 	},
 	"^Subway(?: Sandwiches)?$": {
