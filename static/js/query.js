@@ -11,7 +11,7 @@ $('#search').submit(function (e) {
 			if (data.restaurant.verdict) {
 				$('#verdict').removeClass('text-error');
 				$('#verdict').addClass('text-success');
-				$('#verdict').text('Yes, you just leave them there.');
+				$('#verdict').text('Yes, just leave them there.');
 			} else {
 				$('#verdict').removeClass('text-success');
 				$('#verdict').addClass('text-error');
