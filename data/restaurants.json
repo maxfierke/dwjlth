@@ -49,5 +49,8 @@
 	},
 	"^Potbelly(\\sSandwiches)?$": {
 		"verdict": false
+	},
+	"^Arby'?s$": {
+		"verdict": false
 	}
 }
