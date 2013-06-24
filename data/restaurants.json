@@ -47,7 +47,7 @@
 	"^Qudoba$": {
 		"verdict": false
 	},
-	"^Potbelly(\\sSandwiches)?$": {
+	"^Potbelly(\\sSandwiches|\\sSandwich Shop)?$": {
 		"verdict": false
 	},
 	"^Arby'?s$": {
