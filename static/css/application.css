@@ -14,6 +14,13 @@ body {
 	display: none;
 }
 
+.right-corner {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+}
+
 .wrapper {
 	margin: 7rem auto 3em auto;
 }
@@ -28,10 +35,6 @@ body {
 	font-size: 2em;
 	height: auto;
 	line-height: normal;
-}
-
-footer {
-	height: 60px;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
