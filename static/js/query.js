@@ -7,6 +7,7 @@ $('#search').submit(function (e) {
 		success: function (data, textStatus) {
 			$('#notfound').addClass('hidden');
 			$('#result').removeClass('hidden');
+			$('#restaurant').text(data.restaurant.name);
 			if (data.restaurant.verdict) {
 				$('#verdict').removeClass('text-error');
 				$('#verdict').addClass('text-success');

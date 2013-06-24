@@ -1,59 +1,78 @@
 {
 	"^Mc\\s?Donald'?s$": {
+		"name": "McDonald's",
 		"verdict": false
 	},
-	"^Smash\\s?Burger$": {
+	"^Smash\\s?burger$": {
+		"name": "Smashburger",
 		"verdict": true
 	},
 	"^Taco\\s?Bell$": {
+		"name": "Taco Bell",
 		"verdict": false
 	},
 	"^Burger\\s?King$": {
+		"name": "Burger King",
 		"verdict": false
 	},
 	"^Five\\s?Guys\\s?(?:Burgers)?\\s?(?:and Fries)?(?:& Fries)?$": {
+		"name": "Five Guys Burgers & Fries",
 		"verdict": false
 	},
 	"^(Hardee'?s|Carl'?s Jr\\.?)$": {
+		"name": "Hardee's/Carl's Jr.",
 		"verdict": false
 	},
 	"^Subway(?: Sandwiches)?$": {
+		"name": "Subway",
 		"verdict": false
 	},
 	"^Jimmy Johns$": {
+		"name": "Jimmy Johns",
 		"verdict": false
 	},
 	"^Shish$": {
+		"name": "Shish Cafe",
 		"verdict": true
 	},
 	"^Wally'?s\\s?Falafel\\s?(?:and)?\\s?(?:&)?\\s?Hummus$": {
+		"name": "Wally's Falafel & Hummus",
 		"verdict": false
 	},
 	"^(Dairy Queen|DQ)$": {
+		"name": "Dairy Queen",
 		"verdict": false
 	},
 	"^(Erbert(\\s|'s )(&|and) Gerbert('s|s)|^Erb('s|s|) (&|and) Gerb('s|s|))$": {
+		"name": "Erbert & Gerbert's",
 		"verdict": false
 	},
 	"^Fogo(\\sde Ch[aã]o)?$": {
+		"name": "Fogo de Chão",
 		"verdict": true
 	},
 	"^Chipotle$": {
+		"name": "Chipotle Mexican Grill",
 		"verdict": false
 	},
-	"^Which\\s?wich$": {
+	"^Which\\s?wich( Sandwiches)?$": {
+		"name": "Which Wich Sandwiches",
 		"verdict": false
 	},
 	"^Qudoba$": {
+		"name": "Qudoba Mexican Grill",
 		"verdict": false
 	},
 	"^Potbelly(\\sSandwiches|\\sSandwich Shop)?$": {
+		"name": "Potbelly Sandwich Shop",
 		"verdict": false
 	},
 	"^Arby'?s$": {
+		"name": "Arby's",
 		"verdict": false
 	},
 	"^Noodle'?s(& Company|and Company)?$": {
+		"name": "Noodle's & Company",
 		"verdict": true
 	}
 }
