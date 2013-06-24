@@ -52,5 +52,8 @@
 	},
 	"^Arby'?s$": {
 		"verdict": false
+	},
+	"^Noodle'?s(& Company|and Company)?$": {
+		"verdict": true
 	}
 }
