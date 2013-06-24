@@ -11,11 +11,11 @@ $('#search').submit(function (e) {
 			if (data.restaurant.verdict) {
 				$('#verdict').removeClass('text-error');
 				$('#verdict').addClass('text-success');
-				$('#verdict').text('Yes');
+				$('#verdict').text('Yes, you just leave them there.');
 			} else {
 				$('#verdict').removeClass('text-success');
 				$('#verdict').addClass('text-error');
-				$('#verdict').text('No');
+				$('#verdict').text('No, you must bus them yourself.');
 			}
 		},
 		error: function (data, textStatus) {
