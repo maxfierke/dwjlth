@@ -29,7 +29,7 @@
 	"^Wally'?s\\s?Falafel\\s?(?:and)?\\s?(?:&)?\\s?Hummus$": {
 		"verdict": false
 	},
-	"^Dairy Queen$": {
+	"^(Dairy Queen|DQ)$": {
 		"verdict": false
 	},
 	"^(Erbert(\\s|'s )(&|and) Gerbert('s|s)|^Erb('s|s|) (&|and) Gerb('s|s|))$": {
