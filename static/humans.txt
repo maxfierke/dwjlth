@@ -1,0 +1,26 @@
+  DoWeJustLeaveTheseHere.com is brought
+  to you by...
+
+/* MAIN */
+  Development & Main Design: Max Fierke
+  Twitter: @m4xm4n
+  Github: @maxfierke
+  Site: http://www.maxfierke.com
+
+/* SITE */
+  Last update: 2013-06-24
+  Doctype: HTML5
+  IDE: Sublime Text 3
+
+/* POWERED BY */
+  Twitter Bootstrap
+  Flask
+  jQuery
+  Jinja2
+  Werkzeug
+  
+/* SERVED BY */
+  Heroku
+  
+/* SPECIAL THANKS */
+  Anyone who has submitted a pull request.
