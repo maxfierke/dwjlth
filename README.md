@@ -10,3 +10,6 @@ Hell yeah. Just open up an issue in the issue tracker, or if you're comfortable 
 
 ###Schweet. I'm a programmer, can I add some fancy shit to this?
 Sure, just [Don't Be A Dick](http://www.dbad-license.org/). That's actually the name of the license this is under.
+
+###Wait, who are you again?
+Oh, right. My name is [Max Fierke](http://www.maxfierke.com). I do a lot of [programming](https://github.com/maxfierke). I like to build web applications. I made this in five or six hours on a Sunday (I know, too long).
