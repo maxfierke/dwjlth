@@ -75,16 +75,16 @@
 		"name": "Noodle's & Company",
 		"verdict": true
 	},
-        "^Nando'?s$": {
-                "name": "Nando's",
-                "verdict": true
-        },
-        "^Pizza\\s?Express$": {
-                "name": "Pizza Express",
-                "verdict": true
-        },
-        "^(KFC|Kentucky\\s?Fried\\s?Chicken)$": {
-                "name": "Kentucky Fried Chicken",
-                "verdict": false
-        }
+	"^Nando'?s$": {
+		"name": "Nando's",
+		"verdict": true
+	},
+	"^Pizza\\s?Express$": {
+		"name": "Pizza Express",
+		"verdict": true
+	},
+	"^(KFC|Kentucky\\s?Fried\\s?Chicken)$": {
+		"name": "Kentucky Fried Chicken",
+		"verdict": false
+	}
 }
