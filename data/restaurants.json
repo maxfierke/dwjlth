@@ -86,5 +86,9 @@
 	"^(KFC|Kentucky\\s?Fried\\s?Chicken)$": {
 		"name": "Kentucky Fried Chicken",
 		"verdict": false
+	},
+	"^Denny'?s$": {
+		"name": "Denny's",
+		"verdict": true
 	}
 }
